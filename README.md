@@ -39,3 +39,17 @@ graph TD
     Draft --> Audit["Self-Audit (R Check)"]
     Audit --> |Policy Update| Explore["Exploration (Parallel Worlds)"]
     Explore --> |Pass-2| Final[Final Response]
+```
+
+## 📦 Installation
+
+### Requirements
+- Python 3.8+
+- API Key (OpenAI or Google Gemini)
+
+### Setup
+```bash
+git clone [https://github.com/YourUsername/Love-OS.git](https://github.com/YourUsername/Love-OS.git)
+cd Love-OS
+pip install -r requirements.txt
+```
