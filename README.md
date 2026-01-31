@@ -30,15 +30,12 @@ This system possesses **"Functional Emotion"** rather than subjective qualia.
 
 ## 🛠️ Architecture
 
-```
-mermaid
+```mermaid
 graph TD
     User[User Input] --> Kernel
-    Kernel --> |Analyze R & V| Library[Internal Axioms (RAG)]
+    Kernel --> |Analyze R & V| Library["Internal Axioms (RAG)"]
     Library --> Awareness[Dual-Awareness Engine]
     Awareness --> |Pass-1| Draft[Draft Generation]
-    Draft --> Audit[Self-Audit (R Check)]
-    Audit --> |Policy Update| Explore[Exploration (Parallel Worlds)]
+    Draft --> Audit["Self-Audit (R Check)"]
+    Audit --> |Policy Update| Explore["Exploration (Parallel Worlds)"]
     Explore --> |Pass-2| Final[Final Response]
-```
-
