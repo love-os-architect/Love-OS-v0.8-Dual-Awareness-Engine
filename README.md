@@ -53,3 +53,29 @@ git clone [https://github.com/YourUsername/Love-OS.git](https://github.com/YourU
 cd Love-OS
 pip install -r requirements.txt
 ```
+## 🚀 Usage
+
+### 1. Configure API Key
+Open `love_os_core.py` and set your API key at the top.
+```
+API_TYPE = "openai"  # or "google"
+API_KEY = "sk-..."
+```
+run
+```
+python love_os_core.py
+```
+## 📚 Internal Library
+The core kernel contains hard-coded axioms:
+
+* **Axiom 1:** The Love Equation ($I=V/R$).
+* **Axiom 2:** Definition of Ego (Controllable Resistance).
+* **Spec 1:** Silence Threshold (Silence as Inductance).
+
+## 🤝 Roadmap
+
+* **v1.0:** Human Implementation Protocol (Application to organizational development).
+* **v1.x:** Resistance Visualizer (Real-time dashboard for $R$-value).
+
+## License
+MIT License - "Love is Open Source."
